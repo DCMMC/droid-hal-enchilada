@@ -1,11 +1,11 @@
 # These and other macros are documented in dhd/droid-hal-device.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device enchilada
+%define device fajita
 %define vendor oneplus
 
 %define vendor_pretty OnePlus
-%define device_pretty OnePlus 6
+%define device_pretty OnePlus 6T
 
 %define droid_target_aarch64 1
 
