@@ -1,4 +1,4 @@
 [submodule "dhd"]
 	path = dhd
 	url = https://github.com/sailfish-oneplus6/droid-hal-device
-	branch = update-3.2.1
+	branch = master
