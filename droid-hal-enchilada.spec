@@ -11,6 +11,9 @@
 
 %define installable_zip 0
 
+# Calls /var/lib/platform-updates/flash-bootimg.sh
+%define enable_kernel_update 1
+
 %define straggler_files \
     /vendor \
     /system \
@@ -37,3 +40,9 @@
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"
 
+Version: 0.0.1
+Release: 1
+License: BSD-3-Clause
+Source: %{name}-%{version}.tar.gz
+%description
+%files
