@@ -6,9 +6,4 @@
 
 %include rpm/droid-hal-oneplus-sdm845.inc
 
-Version: 0.0.1
-Release: 1
-License: BSD-3-Clause
-Source: %{name}-%{version}.tar.gz
-%description
-%files
+%include rpm/dhd/droid-hal-device.inc
