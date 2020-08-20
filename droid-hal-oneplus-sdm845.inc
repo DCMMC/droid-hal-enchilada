@@ -9,6 +9,9 @@
 
 %define installable_zip 0
 
+# We use our own solution for mounting, in this case it's slotmount
+%define use_own_mounts 1
+
 # Calls /var/lib/platform-updates/flash-bootimg.sh
 %define enable_kernel_update 1
 
@@ -25,8 +28,6 @@
     /product \
     /sdcard \
 %{nil}
-
-%define makefstab_skip_entries /vendor /sys/fs/pstore
 
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1 \
