@@ -1,5 +1,3 @@
 [submodule "dhd"]
 	path = dhd
-	url = https://github.com/sailfish-oneplus6/droid-hal-device
-[submodule "Submod"]
 	url = https://github.com/DCMMC/droid-hal-device

@@ -3,6 +3,10 @@
 
 %define device enchilada
 %define device_pretty OnePlus 6
+%define vendor oneplus
+%define vendor_pretty Oneplus
+
+%define installable_zip 1
 
 %include rpm/droid-hal-oneplus-sdm845.inc
 
